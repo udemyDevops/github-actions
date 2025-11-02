@@ -4,6 +4,8 @@
     - The workflow file should be named as `main.yml` or 'main.yaml' and should be located in the `.github/workflows` folder inside the repo
     - Can automate the tasks -- testing, building, deployment, notifications...
 
+1. Introduction
+
 ![alt text](images/what-is-github-actions.png)
 
 ![alt text](images/why-github-actions.png)
@@ -11,3 +13,5 @@
 ![alt text](images/core-concepts.png)
 
 ![alt text](images/common-use-cases.png)
+
+2. quickstart
