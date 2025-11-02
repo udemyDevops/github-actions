@@ -14,4 +14,4 @@
 
 ![alt text](images/common-use-cases.png)
 
-2. [_quickstart_](quickstart) --> uses the code in [_vprfile-project folder_](vprofile-project)
+2. [_quickstart_](quickstart) --> uses the code in [_vprofile-project folder_](vprofile-project)
