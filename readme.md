@@ -3,3 +3,8 @@
     - The workflow will be written in YAML format ([_sample workflow_](sample-workflow.yaml))
     - The workflow file should be named as `main.yml` or 'main.yaml' and should be located in the `.github/workflows` folder inside the repo
     - Can automate the tasks -- testing, building, deployment, notifications...
+
+![alt text](what-is-github-actions.png)
+
+
+![alt text](why-github-actions.png)
