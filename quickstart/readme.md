@@ -55,7 +55,7 @@
 ```
 git clone <ssh url of the repo>
 ```
-> **Note:** Add the same name given for HOST in the ssh config file in ssh URL (eg : the ssh url of the repo looks like 'git@github.com:udemyDevops/github-actions.git'). While cloning it ('git@github.com-{name used for HOST}:udemyDevops/github-actions.git')
+> **Note:** Add the same name given for HOST in the ssh config file in ssh URL (eg : the ssh url of the repo looks like `git@github.com:udemyDevops/github-actions.gi`). While cloning it (`git@github.com-{name used for HOST}:udemyDevops/github-actions.git`)
 
 > eg: 
 
