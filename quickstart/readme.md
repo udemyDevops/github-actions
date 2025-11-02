@@ -35,8 +35,7 @@
     ````
 
 
-    > [!Note]
-        > If any issues due to hyphen in the repo name (github-actions) then create another repo without any space or other characters (eg: githubactions) and create a key with the same name if required.
+    > **Note:** If any issues due to hyphen in the repo name (github-actions) then create another repo without any space or other characters (eg: githubactions) and create a key with the same name if required.
 
     - save it
     ```
