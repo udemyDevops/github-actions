@@ -51,14 +51,15 @@
     - paste the public key content
     - click `Add SSH key` to save it
 
-* In the terminal, change the directory to clone the repo 
-```
-git clone <ssh url of the repo>
-```
-> **Note:** Add the same name given for HOST in the ssh config file in ssh URL (eg : the ssh url of the repo looks like `git@github.com:udemyDevops/github-actions.gi`). After adding the host name while cloning, it looks like (eg: `git@github.com-{name used for HOST}:udemyDevops/github-actions.git`)
+* In the terminal, change the directory to clone the repo
 
-> eg: 
+    ```
+    git clone <ssh url of the repo>
+    ```
+    > **Note:** Add the same name given for HOST in the ssh config file in ssh URL (eg : the ssh url of the repo looks like `git@github.com:udemyDevops/github-actions.gi`). After adding the host name while cloning, it looks like (eg: `git@github.com-{name used for HOST}:udemyDevops/github-actions.git`)
 
-    git clone git@github.com-githubactions:udemyDevops/github-actions.git
+    > eg: 
 
+        git clone git@github.com-githubactions:udemyDevops/github-actions.git
 
+    - While cloning it uses the key specified in the config file to login to github account
