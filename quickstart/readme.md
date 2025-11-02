@@ -63,7 +63,6 @@
         git clone git@github.com-githubactions:udemyDevops/github-actions.git
 
     - While cloning it uses the key specified in the config file to login to github account
-    - For this exercise, source code is located in [_vprofile-project folder_](../vprofile-project) 
 
 * Now, to configure the action in github account
     - github repo --> actions --> simple workflow (for practice) --> click `configure`

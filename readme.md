@@ -14,4 +14,7 @@
 
 ![alt text](images/common-use-cases.png)
 
-2. [_quickstart_](quickstart) --> uses the code in [_vprofile-project folder_](vprofile-project)
+* we can use plugins available in marketplace (https://github.com/marketplace) --> actions --> all actions
+    - search for specific action --> click on it to see the usage
+
+2. [_quickstart_](quickstart)
