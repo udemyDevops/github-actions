@@ -64,5 +64,4 @@
 
     - While cloning it uses the key specified in the config file to login to github account
 
-* Now, to configure the action in github account
-    - github repo --> actions --> simple workflow (for practice) --> click `configure`
+* Now, create a workflow in `.github/workflows` directory and commit. Once the commit is done the workflow will be triggered --> can see in repo actions
