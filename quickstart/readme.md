@@ -18,7 +18,7 @@
     ```
     - add the below content
     ```
-    HOST github.com-<repo name>
+    HOST github.com-<name identifiable to repo/project>
       HOSTNAME github.com
       User git
       IdentityFile ~/.ssh/<key name>
@@ -27,7 +27,7 @@
     ````
     eg: 
     
-    HOST github.com-github-actions
+    HOST github.com-githubactions
       HOSTNAME github.com
       User git
       IdentityFile ~/.ssh/github-actions
@@ -35,7 +35,7 @@
     ````
 
 
-    > **Note:** If any issues due to hyphen in the repo name (github-actions) then create another repo without any space or other characters (eg: githubactions) and create a key with the same name if required.
+    > **Note:** The same name given for HOST in the config file should be added in the ssh url of the repo while cloning it
 
     - save it
     ```
@@ -46,6 +46,19 @@
     cat {keyName}.pub
     ```
 
+* Github account --> settings --> SSH and GPG keys --> click `New ssh key`
+    - give a name identifiable with project or repo
+    - paste the public key content
+    - click `Add SSH key` to save it
 
+* In the terminal, change the directory to clone the repo 
+```
+git clone <ssh url of the repo>
+```
+> **Note:** Add the same name given for HOST in the ssh config file in ssh URL (eg : the ssh url of the repo looks like 'git@github.com:udemyDevops/github-actions.git'). While cloning it ('git@github.com-{name used for HOST}:udemyDevops/github-actions.git')
+
+> eg: 
+
+    git clone git@github.com-githubactions:udemyDevops/github-actions.git
 
 
